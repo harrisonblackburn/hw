@@ -85,7 +85,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Grouped these classes together because they share same properties & values */
+/* Grouped these elements together because they share same properties & values */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff; 
@@ -115,7 +115,7 @@ p {
 }
 
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.images {
     max-height: 200px;
 }
 
