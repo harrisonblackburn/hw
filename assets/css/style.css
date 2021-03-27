@@ -86,25 +86,25 @@ p {
     background-color: #2589bd;
 }
 /* Grouped these elements together because they share same properties & values */
-.benefit {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff; 
 }
 
-
-.benefit h3 {
+/* combined these three classes into one */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
-.benefit img {
+/* combined these three clasees into one */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/* combined these three classes into one */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -115,7 +115,7 @@ p {
 }
 
 
-.images {
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
